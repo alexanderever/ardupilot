@@ -29,7 +29,7 @@ const AP_Param::GroupInfo AC_Sprayer::var_info[] = {
 
     // @Param: SPINNER
     // @DisplayName: Spinner rotation speed
-    // @Description: Spinner's rotation speed in PWM (a higher rate will disperse the spray over a wider area horizontally)
+    // @Description: Spinner's rotation speed in PWM (a higher rate will produce smaller spray droplets)
     // @Units: ms
     // @Range: 1000 2000
     // @User: Standard
